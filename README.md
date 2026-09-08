@@ -6,11 +6,7 @@ Jogo de adivinhação de palavras inspirado no Wordle, desenvolvido com HTML, CS
 
 ## Jogo publicado
 
-Após configurar o GitHub Pages, o jogo ficará disponível em:
-
 **https://felipeoliveira456.github.io/ap1/**
-
-> Configure em *Settings → Pages → Branch: main → Folder: /src*.
 
 ## Objetivo
 
@@ -41,10 +37,9 @@ O segundo **A** não fica amarelo porque o **A** da palavra secreta já foi cons
 
 ## Como executar localmente
 
-Não é necessário instalar dependências. Basta abrir o arquivo HTML no navegador ou usar um servidor local:
+Não é necessário instalar dependências. Basta abrir o arquivo `index.html` no navegador ou usar um servidor local:
 
 ```bash
-cd src
 python3 -m http.server
 ```
 
@@ -63,12 +58,11 @@ Acesse `http://localhost:8000` no navegador.
 ap1/
 ├── assets/
 │   └── screenshot.png
+├── index.html
+├── styles.css
+├── script.js
 ├── LICENSE
-├── README.md
-└── src/
-    ├── index.html
-    ├── styles.css
-    └── script.js
+└── README.md
 ```
 
 ## Informações do jogo
@@ -81,8 +75,6 @@ ap1/
   "turma": "14A"
 }
 ```
-
-> Ajuste `"autores"` e `"turma"` se necessário antes de entregar.
 
 ## Licença
 
