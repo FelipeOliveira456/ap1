@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.conteiner {
+    margin: 0 auto;
+}
+
+header {
+    background-color: #8AF;
+    color: #FFF;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+footer {
+    background-color: #8AF;
+    color: #FFF;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+#instrucoes {
+    font-size: 16px;
+    margin: 20px 10px;
+}
+
+#grade {
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    gap: 5px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.celula {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.verde {
+    background-color: #6aaa64;
+    color: white;
+}
+
+.amarelo {
+    background-color: #c9b458;
+    color: white;
+}
+
+.cinza {
+    background-color: #787c7e;
+    color: white;
+}
+
+#chute {
+    font-size: 18px;
+    padding: 8px;
+    text-transform: uppercase;
+}
+
+button {
+    background-color: #39F;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #17D;
+}
+
+#status {
+    margin-top: 20px;
+    font-size: 18px;
+    min-height: 24px;
+}
