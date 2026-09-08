@@ -1,8 +1,8 @@
-# Wordle — Atividade Prática 1 (GAC116)
+# Adivinhe — Atividade Prática 1 (GAC116)
 
 Jogo de adivinhação de palavras inspirado no Wordle, desenvolvido com HTML, CSS, JavaScript e jQuery.
 
-![Captura de tela do jogo Wordle](./assets/screenshot.png)
+![Captura de tela do jogo Adivinhe](./assets/screenshot.png)
 
 ## Jogo publicado
 
@@ -69,8 +69,8 @@ ap1/
 
 ```json
 {
-  "nome": "Wordle",
-  "descricao": "Jogo de adivinhação de palavras de 5 letras em até 5 tentativas, com feedback por cores (verde, amarelo e cinza), inspirado no Wordle original.",
+  "nome": "Adivinhe",
+  "descricao": "Jogo de adivinhação de palavras de 5 letras em até 5 tentativas, com feedback por cores (verde, amarelo e cinza), inspirado no Wordle.",
   "autores": "Felipe Geraldo de Oliveira",
   "turma": "14A"
 }
